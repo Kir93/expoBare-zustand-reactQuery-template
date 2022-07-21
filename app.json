@@ -1,0 +1,19 @@
+{
+  "name": "tirrilee",
+  "displayName": "tirrilee",
+  "expo": {
+    "name": "tirrilee",
+    "slug": "tirrilee",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "jsEngine": "hermes",
+    "android": {
+      "package": "xyz.tirrilee"
+    },
+    "ios": {
+      "bundleIdentifier": "xyz.tirrilee"
+    }
+  }
+}
