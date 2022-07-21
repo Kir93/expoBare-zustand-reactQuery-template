@@ -1,19 +1,19 @@
 {
-  "name": "tirrilee",
-  "displayName": "tirrilee",
+  "name": "kir93-expo",
+  "displayName": "kir93-expo",
   "expo": {
-    "name": "tirrilee",
-    "slug": "tirrilee",
+    "name": "kir93-expo",
+    "slug": "kir93-expo",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ],
     "jsEngine": "hermes",
     "android": {
-      "package": "xyz.tirrilee"
+      "package": "kr.kir93"
     },
     "ios": {
-      "bundleIdentifier": "xyz.tirrilee"
+      "bundleIdentifier": "kr.kir93"
     }
   }
 }
