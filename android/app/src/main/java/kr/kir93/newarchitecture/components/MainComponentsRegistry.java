@@ -1,4 +1,4 @@
-package xyz.tirrilee.newarchitecture.components;
+package kr.kir93.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

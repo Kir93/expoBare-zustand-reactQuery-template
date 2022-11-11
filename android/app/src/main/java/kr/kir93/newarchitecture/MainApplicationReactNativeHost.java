@@ -1,4 +1,4 @@
-package xyz.tirrilee.newarchitecture;
+package kr.kir93.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -18,10 +18,11 @@ import com.facebook.react.fabric.ComponentFactory;
 import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
+import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import xyz.tirrilee.BuildConfig;
-import xyz.tirrilee.newarchitecture.components.MainComponentsRegistry;
-import xyz.tirrilee.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import kr.kir93.BuildConfig;
+import kr.kir93.newarchitecture.components.MainComponentsRegistry;
+import kr.kir93.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -105,7 +106,7 @@ public class MainApplicationReactNativeHost extends ReactNativeHost {
                 return new FabricJSIModuleProvider(
                     reactApplicationContext,
                     componentFactory,
-                    new EmptyReactNativeConfig(),
+                    ReactNativeConfig.DEFAULT_CONFIG,
                     viewManagerRegistry);
               }
             });
