@@ -5,7 +5,7 @@ import { Asset } from 'expo-asset';
 import { Ionicons } from '@expo/vector-icons';
 import { ThemeProvider } from 'styled-components/native';
 import { NavigationContainer } from '@react-navigation/native';
-import { QueryClient, QueryClientProvider } from 'react-query';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import {
   NotoSansKR_100Thin,
   NotoSansKR_300Light,

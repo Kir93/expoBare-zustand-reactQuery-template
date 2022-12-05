@@ -44,9 +44,9 @@ Important library version history
 | Name              | Version |
 | :---------------- | :------ |
 | react             | v18.1.0 |
-| react-Native      | v0.70.5 |
+| react-native      | v0.70.5 |
 | expo              | v47.0.0 |
 | react-navigation  | v6.2.1  |
-| styled-components | v5.3.5  |
-| zustand           | v4.0.0  |
-| react-query       | v3.39.1 |
+| styled-components | v5.3.6  |
+| zustand           | v4.1.4  |
+| react-query       | v4.19.1 |
