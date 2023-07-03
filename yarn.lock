@@ -1397,7 +1397,15 @@
     uuid "^3.4.0"
     wrap-ansi "^7.0.0"
 
-"@expo/code-signing-certificates@0.0.2", "@expo/code-signing-certificates@^0.0.2":
+"@expo/code-signing-certificates@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@expo/code-signing-certificates/-/code-signing-certificates-0.0.5.tgz#a693ff684fb20c4725dade4b88a6a9f96b02496c"
+  integrity sha512-BNhXkY1bblxKZpltzAx98G2Egj9g1Q+JRcvR7E99DOj862FTCX+ZPsAUtPTr7aHxwtrL7+fL3r0JSmM9kBm+Bw==
+  dependencies:
+    node-forge "^1.2.1"
+    nullthrows "^1.1.1"
+
+"@expo/code-signing-certificates@^0.0.2":
   version "0.0.2"
   resolved "https://registry.npmjs.org/@expo/code-signing-certificates/-/code-signing-certificates-0.0.2.tgz"
   integrity sha512-vnPHFjwOqxQ1VLztktY+fYCfwvLzjqpzKn09rchcQE7Sdf0wtW5fFtIZBEFOOY5wasp8tXSnp627zrAwazPHzg==
@@ -1588,6 +1596,19 @@
   dependencies:
     "@expo/config" "~7.0.2"
     "@expo/json-file" "8.2.36"
+    chalk "^4.1.0"
+    debug "^4.3.2"
+    find-yarn-workspace-root "~2.0.0"
+    getenv "^1.0.0"
+    resolve-from "^5.0.0"
+    sucrase "^3.20.0"
+
+"@expo/metro-config@~0.7.0":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@expo/metro-config/-/metro-config-0.7.1.tgz#eaae792da23554c1abbc401df868566fab29951b"
+  integrity sha512-vGWU62Zp5pRGw5IEHDNdqvsy62/hu/Na7bswePYVjoaItOjJY7+qilFeF0AAK+3V8qAM8fpltH3ByylKfWaA7A==
+  dependencies:
+    "@expo/config" "~8.0.0"
     chalk "^4.1.0"
     debug "^4.3.2"
     find-yarn-workspace-root "~2.0.0"
@@ -4776,10 +4797,10 @@ expo-constants@~14.2.0:
     "@expo/config" "~8.0.0"
     uuid "^3.3.2"
 
-expo-eas-client@~0.4.0:
-  version "0.4.1"
-  resolved "https://registry.npmjs.org/expo-eas-client/-/expo-eas-client-0.4.1.tgz"
-  integrity sha512-bIj2rm6lw/iZAOAW5CSAxshSXi2oY+ORpHRp4ZdqSDuwA0RIa9jGyMm1Jhostjjz5y9k2uur5vtVqq6P3Bwx/Q==
+expo-eas-client@~0.5.0:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/expo-eas-client/-/expo-eas-client-0.5.1.tgz#3ef80dbbde13abe35be4e2a2e29b73d2f7fdf27a"
+  integrity sha512-i3L/iwhI6cFhSUpVsCxSU5qehNznL/rQFYoof6qUIh3CMyijCuTEwjEhwbw2a5W6obPBzQUXbomMSFDO6D5/0Q==
 
 expo-error-recovery@~4.0.1:
   version "4.0.1"
@@ -4826,10 +4847,10 @@ expo-image-picker@~14.1.1:
   dependencies:
     expo-image-loader "~4.1.0"
 
-expo-json-utils@~0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/expo-json-utils/-/expo-json-utils-0.4.0.tgz"
-  integrity sha512-lK6gjea72XTYafpKNNJaMrBK5dYAX8LFLXrp/M1MKJU4Zy7EHd2rKrLwop3GZts8VdwLHeVcMko79SAbhe3i5Q==
+expo-json-utils@~0.5.0:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/expo-json-utils/-/expo-json-utils-0.5.1.tgz#fcb01050b8aa66592eea2024a48979f2d090c6f9"
+  integrity sha512-Y5boshyf40vPjwxNnOIfacZPNkOymecZRQ1k+TSXlq6gnw5XRsnM5hnP0VLVYhdv8x+9CX6E1fDsDUNvsK38Dg==
 
 expo-keep-awake@~11.0.1:
   version "11.0.1"
@@ -4847,12 +4868,12 @@ expo-linking@~4.0.1:
     qs "^6.11.0"
     url-parse "^1.5.9"
 
-expo-manifests@~0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/expo-manifests/-/expo-manifests-0.4.0.tgz"
-  integrity sha512-IdZjIYDxx4nH0Gb3X4T4/2YknmR/jSLxymAS0m7SfJ9V7Vlu/y0p3lNwUys9/JzihxX9PDIuOi/Y4/uqL6TlXg==
+expo-manifests@~0.5.0:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/expo-manifests/-/expo-manifests-0.5.2.tgz#60f91ad196cd5a37248c28c6f307df806c5a27ad"
+  integrity sha512-WnsTlE2le3pV/B/AJPKTOSjb2K9AT1mPDCfQxTQ/KMCwF95saoXYt2OPF3hxZNaMAV6VIAhXgd5Y6wpcH9ruPQ==
   dependencies:
-    expo-json-utils "~0.4.0"
+    expo-json-utils "~0.5.0"
 
 expo-media-library@~15.2.3:
   version "15.2.3"
@@ -4891,33 +4912,32 @@ expo-status-bar@~1.4.2:
   resolved "https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-1.4.2.tgz"
   integrity sha512-ZWjO6D4ARGYfAd3SWDD3STNudHDhyBZDZjhhseqoEmsf7bS9ykny8KKOhlzJW24qIQNPhkgdvHhaw9fQwMJy3Q==
 
-expo-structured-headers@~3.0.0:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/expo-structured-headers/-/expo-structured-headers-3.0.1.tgz"
-  integrity sha512-x6hkzuQL5HJoyB+xQyBf9M04ZUmrjFWqEW7gzIYWN/6LA+dgyaV4fF6U9++Re+GgGjF03vHJFqR1xYaosKKZYQ==
+expo-structured-headers@~3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/expo-structured-headers/-/expo-structured-headers-3.1.1.tgz#198d44260f4b128d41313ef78df02fa6e20c5054"
+  integrity sha512-oV6yNGsJxQt7S9HYZTr+4L0I/yRwOF38USJ81I1KiN3GQI4C2z7P5OosyREA2VL9O+kUZVCCpNYsBLSa3/5bAQ==
 
-expo-updates-interface@~0.8.0:
-  version "0.8.1"
-  resolved "https://registry.npmjs.org/expo-updates-interface/-/expo-updates-interface-0.8.1.tgz"
-  integrity sha512-1TPFCTQFHMZbltFGnxig3PbN/b6nO4T0RyL8XqdmYvQY0ElOCprZXQQ8vNDqeLYHgausG1lD4OyJwFzh2SNBSA==
+expo-updates-interface@~0.9.0:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/expo-updates-interface/-/expo-updates-interface-0.9.1.tgz#e81308d551ed5a4c35c8770ac61434f6ca749610"
+  integrity sha512-wk88LLhseQ7LJvxdN7BTKiryyqALxnrvr+lyHK3/prg76Yy0EGi2Q/oE/rtFyyZ1JmQDRbO/5pdX0EE6QqVQXQ==
 
-expo-updates@~0.15.4:
-  version "0.15.4"
-  resolved "https://registry.npmjs.org/expo-updates/-/expo-updates-0.15.4.tgz"
-  integrity sha512-ZMQ9R0igA9lMFRe5WU9Uo1YBKPChsTgv+QYthWVcd0kG9pRQmdRF/kCXknScRfOOaoyh8HkMPlnzKdPdBfVHJQ==
+expo-updates@~0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/expo-updates/-/expo-updates-0.16.4.tgz#6d05438cf7304add03645a598211ac4ef3cc4f64"
+  integrity sha512-hEUotP10sBiYn6dvkYC2rIa+kAmsBuaMp32sIVNAYEwKMQJqEwqNAKTU6CpJ4Aoc//BYL2Hv8qNo/UsT4rATRg==
   dependencies:
-    "@expo/code-signing-certificates" "0.0.2"
-    "@expo/config" "~7.0.2"
-    "@expo/config-plugins" "~5.0.3"
-    "@expo/metro-config" "~0.5.0"
+    "@expo/code-signing-certificates" "0.0.5"
+    "@expo/config" "~8.0.0"
+    "@expo/config-plugins" "~6.0.0"
+    "@expo/metro-config" "~0.7.0"
     arg "4.1.0"
-    expo-eas-client "~0.4.0"
-    expo-manifests "~0.4.0"
-    expo-structured-headers "~3.0.0"
-    expo-updates-interface "~0.8.0"
+    expo-eas-client "~0.5.0"
+    expo-manifests "~0.5.0"
+    expo-structured-headers "~3.1.0"
+    expo-updates-interface "~0.9.0"
     fbemitter "^3.0.0"
     resolve-from "^5.0.0"
-    uuid "^3.4.0"
 
 expo@^47.0.0:
   version "47.0.3"
