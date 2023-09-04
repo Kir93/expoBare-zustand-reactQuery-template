@@ -1833,10 +1833,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.44.0.tgz#961a5903c74139390478bdc808bcde3fc45ab7af"
   integrity sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==
 
-"@expo-google-fonts/noto-sans-kr@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.npmjs.org/@expo-google-fonts/noto-sans-kr/-/noto-sans-kr-0.2.2.tgz"
-  integrity sha512-U51A5HK6cbmZQIaNAwP9Cta3W4oAsBJ2BSfy1LhlfjR89YOm12pkH3moOsG7IRtGDrvt9jIOVU7wGRKpBzm9nA==
+"@expo-google-fonts/noto-sans-kr@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/noto-sans-kr/-/noto-sans-kr-0.2.3.tgz#b25290ea2c50d28430ebd66cab763ecd0a2ff617"
+  integrity sha512-ha+y6yJsjtcSW9E4UmF6J/pVf5HQdv6iO72o8sZNbmimMXpEL94djjDD+l3TGq3Rp6Y8npKpEqYbnPK0SB247A==
 
 "@expo/bunyan@4.0.0", "@expo/bunyan@^4.0.0":
   version "4.0.0"
