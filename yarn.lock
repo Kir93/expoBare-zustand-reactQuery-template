@@ -3237,10 +3237,10 @@
   resolved "https://registry.npmjs.org/@types/stack-utils/-/stack-utils-2.0.1.tgz"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
 
-"@types/styled-components-react-native@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@types/styled-components-react-native/-/styled-components-react-native-5.2.1.tgz#08cba1f638c7a3a0b7017954d6e59baef36fb022"
-  integrity sha512-XI/SWDSLSe7IjZXA9jS0vv4WPpV2B+nQhefUqk00usNHxhErlzPtTGdhjMZgrH0uYz5R0hLLIandhmhDTLkKBg==
+"@types/styled-components-react-native@^5.2.4":
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/@types/styled-components-react-native/-/styled-components-react-native-5.2.4.tgz#6e0b780db727280e61129d12762ed5b087892b25"
+  integrity sha512-rjY6dxzGVzaRqZVL1+93+KviDEV0m3KLsv4KAD3zAvH4WvTCkt26b0b3lVxTtGHXNkZVNfR/d9JCgw874XdOOw==
   dependencies:
     "@types/react" "*"
     "@types/react-native" "^0.70"
