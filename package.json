@@ -27,7 +27,7 @@
     "@tanstack/react-query": "^4.36.1",
     "@tanstack/react-query-devtools": "^4.33.0",
     "axios": "^1.6.0",
-    "expo": "^49.0.9",
+    "expo": "^49.0.18",
     "expo-app-loading": "~2.1.1",
     "expo-asset": "~8.10.1",
     "expo-font": "~11.6.0",
