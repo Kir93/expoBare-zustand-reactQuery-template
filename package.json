@@ -48,7 +48,7 @@
     "react-native-screens": "~3.27.0",
     "react-native-svg": "13.14.0",
     "react-native-svg-transformer": "^1.1.0",
-    "react-native-web": "~0.19.8",
+    "react-native-web": "~0.19.9",
     "styled-components": "^6.0.8",
     "zustand": "^4.4.6"
   },
