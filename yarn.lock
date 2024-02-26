@@ -2897,10 +2897,10 @@
     color "^4.2.3"
     warn-once "^0.1.0"
 
-"@react-navigation/core@^6.4.10", "@react-navigation/core@^6.4.8":
-  version "6.4.10"
-  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-6.4.10.tgz#0c52621968b35e3a75e189e823d3b9e3bad77aff"
-  integrity sha512-oYhqxETRHNHKsipm/BtGL0LI43Hs2VSFoWMbBdHK9OqgQPjTVUitslgLcPpo4zApCcmBWoOLX2qPxhsBda644A==
+"@react-navigation/core@^6.4.10", "@react-navigation/core@^6.4.11":
+  version "6.4.11"
+  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-6.4.11.tgz#481274aff0684757545bf6eb874260af7e8b27d1"
+  integrity sha512-kOCyOc1L0lAl53DbyNl3OkUJwSFKSaVCsV8leJawUXMXJ1FTT3nbS3xMOqbZuchxIbl8T62sZ7YnlWG/21rcMw==
   dependencies:
     "@react-navigation/routers" "^6.1.9"
     escape-string-regexp "^4.0.0"
@@ -7972,12 +7972,7 @@ mz@^2.7.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
-nanoid@^3.1.23, nanoid@^3.3.6:
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
-  integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
-
-nanoid@^3.3.7:
+nanoid@^3.1.23, nanoid@^3.3.6, nanoid@^3.3.7:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
   integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
