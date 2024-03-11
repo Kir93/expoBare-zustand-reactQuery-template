@@ -2965,10 +2965,10 @@
     color "^4.2.3"
     warn-once "^0.1.0"
 
-"@react-navigation/core@^6.4.13":
-  version "6.4.13"
-  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-6.4.13.tgz#27cf33d963f59aeeb36f27514a9744ab818097b3"
-  integrity sha512-RBUpNG11SEYfvvWefJPxz8Xu/feWuPxln7ddRSY92aKs7u6fj/Z694Jun76Gmmw/RIHW6xcu3PH2v3Wm8nbumg==
+"@react-navigation/core@^6.4.13", "@react-navigation/core@^6.4.14":
+  version "6.4.14"
+  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-6.4.14.tgz#da9aba6403c4c0ded8ab62a9698f3b386ef20928"
+  integrity sha512-9DemQVmztRspTH4CRexLNfbJSOhiv6DHumH8enqiXUTgUEYfQUu2qCsEuc/ui08kuYLtoRTdH9P1ovE2xTScbg==
   dependencies:
     "@react-navigation/routers" "^6.1.9"
     escape-string-regexp "^4.0.0"
