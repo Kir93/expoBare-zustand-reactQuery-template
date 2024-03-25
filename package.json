@@ -20,7 +20,7 @@
     "@expo-google-fonts/noto-sans-kr": "^0.2.3",
     "@expo/vector-icons": "^13.0.0",
     "@react-native-community/masked-view": "0.1.11",
-    "@react-navigation/bottom-tabs": "^6.5.16",
+    "@react-navigation/bottom-tabs": "^6.5.20",
     "@react-navigation/core": "^6.4.15",
     "@react-navigation/native": "^6.1.16",
     "@react-navigation/stack": "^6.3.28",
