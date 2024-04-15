@@ -55,7 +55,7 @@
   "devDependencies": {
     "@babel/core": "^7.24.4",
     "@types/lodash": "^4.17.0",
-    "@types/react": "~18.2.61",
+    "@types/react": "~18.2.78",
     "@types/react-native": "~0.72.3",
     "@types/styled-components-react-native": "^5.2.5",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
