@@ -5232,10 +5232,10 @@ expo-image-loader@~4.7.0:
   resolved "https://registry.yarnpkg.com/expo-image-loader/-/expo-image-loader-4.7.0.tgz#d403106822de80bda12d644c82b7a3b7983c0f0b"
   integrity sha512-cx+MxxsAMGl9AiWnQUzrkJMJH4eNOGlu7XkLGnAXSJrRoIiciGaKqzeaD326IyCTV+Z1fXvIliSgNW+DscvD8g==
 
-expo-image-picker@~15.0.5:
-  version "15.0.5"
-  resolved "https://registry.yarnpkg.com/expo-image-picker/-/expo-image-picker-15.0.5.tgz#8a3d4c3ecdb5bcf58f09e024597dd69edf7baa9c"
-  integrity sha512-Qqp16udsadx/YpNcNaWzfbmO0tbMxyX9bS1aFiDVC+Zffh8LY8S4HJJcnWqSC2TeuAl+9SxUwTloJagvPeMBBw==
+expo-image-picker@~15.0.6:
+  version "15.0.6"
+  resolved "https://registry.yarnpkg.com/expo-image-picker/-/expo-image-picker-15.0.6.tgz#7adf19d0e8beff7327c269d93d5b4d5c3cc71916"
+  integrity sha512-WckDXKlvOwywOr5twCOyqTDwEhYHD2ty6k8V2qCWbHHKEVe6C0iGFQgHHIPFKY4E1yhlEADg1UMTt0mnhV2A9Q==
   dependencies:
     expo-image-loader "~4.7.0"
 
