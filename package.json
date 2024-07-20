@@ -50,7 +50,7 @@
     "react-native-svg-transformer": "^1.4.0",
     "react-native-web": "~0.19.12",
     "styled-components": "^6.1.11",
-    "zustand": "^4.5.2"
+    "zustand": "^4.5.4"
   },
   "devDependencies": {
     "@babel/core": "^7.24.8",
