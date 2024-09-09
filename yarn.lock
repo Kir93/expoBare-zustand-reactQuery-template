@@ -7080,10 +7080,10 @@ jest-environment-node@^29.6.3:
     jest-mock "^29.7.0"
     jest-util "^29.7.0"
 
-jest-expo@^51.0.3:
-  version "51.0.3"
-  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-51.0.3.tgz#db3c5c538c44cf9311e5363152c656426c80bd69"
-  integrity sha512-r49OuS9X2S/dH+lSfNmarBS2L/tgvBhzOgKHYFyDJWo+Bb5uVs7Rg/GZal/RD/NDkKFJuByGAaW1F6zHYnjZnw==
+jest-expo@^51.0.4:
+  version "51.0.4"
+  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-51.0.4.tgz#a780e5a2f7d3c54534f799666fd00a5a11de0ac7"
+  integrity sha512-WmlR4rUur1TNF/F14brKCmPdX3TWf7Bno/6A1PuxnflN79LEIXpXuPKMlMWwCCChTohGB5FRniknRibblWu1ug==
   dependencies:
     "@expo/config" "~9.0.0-beta.0"
     "@expo/json-file" "^8.3.0"
