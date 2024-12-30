@@ -4922,15 +4922,6 @@ expo-app-loading@~2.1.1:
   dependencies:
     expo-splash-screen "~0.17.0"
 
-expo-asset@~10.0.6:
-  version "10.0.10"
-  resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-10.0.10.tgz#9e6e02c1a6ec3d19b50d5e615e4dd8e5cc30e857"
-  integrity sha512-0qoTIihB79k+wGus9wy0JMKq7DdenziVx3iUkGvMAy2azscSgWH6bd2gJ9CGnhC6JRd3qTMFBL0ou/fx7WZl7A==
-  dependencies:
-    expo-constants "~16.0.0"
-    invariant "^2.2.4"
-    md5-file "^3.2.3"
-
 expo-asset@~11.0.1:
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-11.0.1.tgz#8608f5ea4639698553725b6690dd621f6f70f206"
