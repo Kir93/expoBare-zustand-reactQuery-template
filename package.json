@@ -29,7 +29,7 @@
     "axios": "^1.7.9",
     "expo": "^52.0.23",
     "expo-app-loading": "~2.1.1",
-    "expo-asset": "~11.0.1",
+    "expo-asset": "~11.0.2",
     "expo-font": "~13.0.1",
     "expo-image-picker": "~16.0.3",
     "expo-linking": "~6.3.1",
