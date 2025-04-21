@@ -17,7 +17,7 @@
     "lint-staged": "lint-staged"
   },
   "dependencies": {
-    "@expo-google-fonts/noto-sans-kr": "^0.2.3",
+    "@expo-google-fonts/noto-sans-kr": "^0.3.0",
     "@expo/vector-icons": "^14.0.2",
     "@react-native-community/masked-view": "0.1.11",
     "@react-navigation/bottom-tabs": "^6.6.1",
