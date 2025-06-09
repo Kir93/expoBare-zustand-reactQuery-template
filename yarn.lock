@@ -6702,12 +6702,12 @@ jest-environment-node@^29.6.3:
     jest-mock "^29.7.0"
     jest-util "^29.7.0"
 
-jest-expo@^53.0.5:
-  version "53.0.5"
-  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-53.0.5.tgz#5e1b16bd6b3c780196eb891e54a947d55c70cd3d"
-  integrity sha512-kRQbgU5SJvx27seV20i+PXjkqOladWnrCi7gFsfGV217lSHm+7ZN8jm7o8DAuTJ/AtuudsxZh3+xUgbsxiKTvg==
+jest-expo@^53.0.7:
+  version "53.0.7"
+  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-53.0.7.tgz#ab1c288940dcdf470c25b7b18e2ed99f03d26bc6"
+  integrity sha512-Uiu3ES0sWbsxpifQuBzXMI1/N9JygfJfwEby/Qw/OPndIQ1YeeIQqkbP52xn6UhdSM4qYQiteX3EjY8TfrZIoA==
   dependencies:
-    "@expo/config" "~11.0.9"
+    "@expo/config" "~11.0.10"
     "@expo/json-file" "^9.1.4"
     "@jest/create-cache-key-function" "^29.2.1"
     "@jest/globals" "^29.2.1"
