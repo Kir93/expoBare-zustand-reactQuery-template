@@ -5183,10 +5183,17 @@ expo-file-system@~18.0.12:
   dependencies:
     web-streams-polyfill "^3.3.2"
 
-expo-font@~13.0.1, expo-font@~13.0.4:
+expo-font@~13.0.4:
   version "13.0.4"
   resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-13.0.4.tgz#c60771446598ddfa98ac1d25244c916a089a99c9"
   integrity sha512-eAP5hyBgC8gafFtprsz0HMaB795qZfgJWqTmU0NfbSin1wUuVySFMEPMOrTkTgmazU73v4Cb4x7p86jY1XXYUw==
+  dependencies:
+    fontfaceobserver "^2.1.0"
+
+expo-font@~13.3.1:
+  version "13.3.1"
+  resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-13.3.1.tgz#ed69ae14f263a4c447efb2615b60d9e045372e68"
+  integrity sha512-d+xrHYvSM9WB42wj8vP9OOFWyxed5R1evphfDb6zYBmC1dA9Hf89FpT7TNFtj2Bk3clTnpmVqQTCYbbA2P3CLg==
   dependencies:
     fontfaceobserver "^2.1.0"
 
