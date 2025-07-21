@@ -64,7 +64,7 @@
     "babel-preset-expo": "~13.2.3",
     "eslint": "^8.57.1",
     "eslint-config-airbnb-typescript": "^17.1.0",
-    "eslint-config-prettier": "^10.1.5",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-prettier": "^5.5.1",
