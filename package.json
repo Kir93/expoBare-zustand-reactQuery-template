@@ -49,7 +49,7 @@
     "react-native-svg": "15.12.0",
     "react-native-svg-transformer": "^1.5.1",
     "react-native-web": "~0.20.0",
-    "styled-components": "^6.1.17",
+    "styled-components": "^6.1.19",
     "zustand": "^5.0.6"
   },
   "devDependencies": {
