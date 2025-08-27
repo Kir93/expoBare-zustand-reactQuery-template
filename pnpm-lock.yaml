@@ -102,8 +102,8 @@ importers:
         specifier: ^1.5.1
         version: 1.5.1(react-native-svg@15.12.1(react-native@0.77.3(@babel/core@7.28.0)(@babel/preset-env@7.28.0(@babel/core@7.28.0))(@types/react@18.3.23)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.0)(@babel/preset-env@7.28.0(@babel/core@7.28.0))(@types/react@18.3.23)(react@18.3.1))(typescript@5.9.2)
       react-native-web:
-        specifier: ~0.21.0
-        version: 0.21.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ~0.21.1
+        version: 0.21.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       styled-components:
         specifier: ^6.1.19
         version: 6.1.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -919,6 +919,10 @@ packages:
 
   '@babel/runtime@7.28.2':
     resolution: {integrity: sha512-KHp2IflsnGywDjBWDkR9iEqiWSpc8GIi0lgTT3mOElT0PP1tG26P4tmFI2YvAdzgq9RGyoHZQEIEdZy6Ec5xCA==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/runtime@7.28.3':
+    resolution: {integrity: sha512-9uIQ10o0WGdpP6GDhXcdOJPJuDgFtIDtN/9+ArJQ2NAfAmiuhTQdzkaTGR33v43GYS2UrSA0eX2pPPHoFVvpxA==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.27.2':
@@ -4513,8 +4517,8 @@ packages:
       react: '*'
       react-native: '*'
 
-  react-native-web@0.21.0:
-    resolution: {integrity: sha512-S0mtV7wMPeet1kCRnrEmo1bTUJeFsKebleCbRwbBRBUg/BWS64bfsnnm+ArC+QtjlbZFSZmtvv8imzOIuOOa3Q==}
+  react-native-web@0.21.1:
+    resolution: {integrity: sha512-BeNsgwwe4AXUFPAoFU+DKjJ+CVQa3h54zYX77p7GVZrXiiNo3vl03WYDYVEy5R2J2HOPInXtQZB5gmj3vuzrKg==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -5220,8 +5224,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ua-parser-js@1.0.40:
-    resolution: {integrity: sha512-z6PJ8Lml+v3ichVojCiB8toQJBuwR42ySM4ezjXIqXK3M0HczmKQ3LF4rhU55PfD99KEEXQG6yb7iOMyvYuHew==}
+  ua-parser-js@1.0.41:
+    resolution: {integrity: sha512-LbBDqdIC5s8iROCUjMbW1f5dJQTEFB1+KO9ogbvlb3nm9n4YHa5p4KTvFPWvh2Hs8gZMBuiB1/8+pdfe/tDPug==}
     hasBin: true
 
   unbox-primitive@1.1.0:
@@ -6589,6 +6593,8 @@ snapshots:
       source-map-support: 0.5.21
 
   '@babel/runtime@7.28.2': {}
+
+  '@babel/runtime@7.28.3': {}
 
   '@babel/template@7.27.2':
     dependencies:
@@ -9492,7 +9498,7 @@ snapshots:
       object-assign: 4.1.1
       promise: 7.3.1
       setimmediate: 1.0.5
-      ua-parser-js: 1.0.40
+      ua-parser-js: 1.0.41
     transitivePeerDependencies:
       - encoding
 
@@ -10780,7 +10786,7 @@ snapshots:
 
   metro-runtime@0.81.5:
     dependencies:
-      '@babel/runtime': 7.28.2
+      '@babel/runtime': 7.28.3
       flow-enums-runtime: 0.0.6
 
   metro-source-map@0.81.5:
@@ -11385,9 +11391,9 @@ snapshots:
       react-native: 0.77.3(@babel/core@7.28.0)(@babel/preset-env@7.28.0(@babel/core@7.28.0))(@types/react@18.3.23)(react@18.3.1)
       warn-once: 0.1.1
 
-  react-native-web@0.21.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-native-web@0.21.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@babel/runtime': 7.28.2
+      '@babel/runtime': 7.28.3
       '@react-native/normalize-colors': 0.74.89
       fbjs: 3.0.5
       inline-style-prefixer: 7.0.1
@@ -12220,7 +12226,7 @@ snapshots:
 
   typescript@5.9.2: {}
 
-  ua-parser-js@1.0.40: {}
+  ua-parser-js@1.0.41: {}
 
   unbox-primitive@1.1.0:
     dependencies:
