@@ -36,7 +36,7 @@ importers:
         specifier: ^4.36.1
         version: 4.41.0(@tanstack/react-query@4.41.0(react-dom@18.3.1(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       axios:
-        specifier: ^1.12.0
+        specifier: ^1.12.2
         version: 1.12.2
       expo:
         specifier: ^53.0.22
