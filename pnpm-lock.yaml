@@ -87,8 +87,8 @@ importers:
         specifier: ~2.28.0
         version: 2.28.0(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1)
       react-native-reanimated:
-        specifier: ~4.1.0
-        version: 4.1.0(@babel/core@7.28.4)(react-native-worklets@0.5.1(@babel/core@7.28.4)(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1)
+        specifier: ~4.1.2
+        version: 4.1.2(@babel/core@7.28.4)(react-native-worklets@0.5.1(@babel/core@7.28.4)(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1)
       react-native-safe-area-context:
         specifier: 5.6.1
         version: 5.6.1(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1)
@@ -4564,12 +4564,6 @@ packages:
   react-is@19.1.1:
     resolution: {integrity: sha512-tr41fA15Vn8p4X9ntI+yCyeGSf1TlYaY5vlTZfQmeLBrFo3psOPX6HhTDnFNL9uj3EhP0KAQ80cugCl4b4BERA==}
 
-  react-native-edge-to-edge@1.6.0:
-    resolution: {integrity: sha512-2WCNdE3Qd6Fwg9+4BpbATUxCLcouF6YRY7K+J36KJ4l3y+tWN6XCqAC4DuoGblAAbb2sLkhEDp4FOlbOIot2Og==}
-    peerDependencies:
-      react: '*'
-      react-native: '*'
-
   react-native-gesture-handler@2.28.0:
     resolution: {integrity: sha512-0msfJ1vRxXKVgTgvL+1ZOoYw3/0z1R+Ked0+udoJhyplC2jbVKIJ8Z1bzWdpQRCV3QcQ87Op0zJVE5DhKK2A0A==}
     peerDependencies:
@@ -4582,8 +4576,8 @@ packages:
       react: '*'
       react-native: '*'
 
-  react-native-reanimated@4.1.0:
-    resolution: {integrity: sha512-L8FqZn8VjZyBaCUMYFyx1Y+T+ZTbblaudpxReOXJ66RnOf52g6UM4Pa/IjwLD1XAw1FUxLRQrtpdjbkEc74FiQ==}
+  react-native-reanimated@4.1.2:
+    resolution: {integrity: sha512-qzmQiFrvjm62pRBcj97QI9Xckc3EjgHQoY1F2yjktd0kpjhoyePeuTEXjYRCAVIy7IV/1cfeSup34+zFThFoHQ==}
     peerDependencies:
       '@babel/core': ^7.0.0-0
       react: '*'
@@ -11590,11 +11584,6 @@ snapshots:
 
   react-is@19.1.1: {}
 
-  react-native-edge-to-edge@1.6.0(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1):
-    dependencies:
-      react: 18.3.1
-      react-native: 0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1)
-
   react-native-gesture-handler@2.28.0(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1):
     dependencies:
       '@egjs/hammerjs': 2.0.17
@@ -11608,7 +11597,7 @@ snapshots:
       react: 18.3.1
       react-native: 0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1)
 
-  react-native-reanimated@4.1.0(@babel/core@7.28.4)(react-native-worklets@0.5.1(@babel/core@7.28.4)(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1):
+  react-native-reanimated@4.1.2(@babel/core@7.28.4)(react-native-worklets@0.5.1(@babel/core@7.28.4)(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/core': 7.28.4
       react: 18.3.1
