@@ -66,8 +66,8 @@ importers:
         specifier: ~3.0.8
         version: 3.0.8(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1)
       expo-updates:
-        specifier: ~29.0.11
-        version: 29.0.11(expo@54.0.13(@babel/core@7.28.4)(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1)
+        specifier: ~29.0.12
+        version: 29.0.12(expo@54.0.13(@babel/core@7.28.4)(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1)
       fast-deep-equal:
         specifier: ^3.1.3
         version: 3.1.3
@@ -2910,8 +2910,8 @@ packages:
     peerDependencies:
       expo: '*'
 
-  expo-updates@29.0.11:
-    resolution: {integrity: sha512-zD7Zxe3P61WA6fyTdKRckmTFr7h/0BaSSD+Ssr73YiOLOak7GJUb19B+ysADjJP1L0IIOUR9U/UkMLv0r8k9dA==}
+  expo-updates@29.0.12:
+    resolution: {integrity: sha512-gE3bU6qi5g8Y1TtBzoeHac3utR0i1Wj1ufThh+zpDyFjFbegFm+gwvNLVCBagZUClYKk/4CKxh5ytnwZmPzH+g==}
     hasBin: true
     peerDependencies:
       expo: '*'
@@ -9405,7 +9405,7 @@ snapshots:
     dependencies:
       expo: 54.0.13(@babel/core@7.28.4)(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1)
 
-  expo-updates@29.0.11(expo@54.0.13(@babel/core@7.28.4)(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1):
+  expo-updates@29.0.12(expo@54.0.13(@babel/core@7.28.4)(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.4)(@babel/preset-env@7.28.3(@babel/core@7.28.4))(@types/react@18.3.24)(react@18.3.1))(react@18.3.1):
     dependencies:
       '@expo/code-signing-certificates': 0.0.5
       '@expo/plist': 0.4.7
