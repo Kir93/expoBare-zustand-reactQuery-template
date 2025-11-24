@@ -54,8 +54,8 @@ importers:
         specifier: ~17.0.8
         version: 17.0.8(expo@54.0.23(@babel/core@7.28.5)(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1))
       expo-linking:
-        specifier: ~8.0.8
-        version: 8.0.8(expo@54.0.23(@babel/core@7.28.5)(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)
+        specifier: ~8.0.9
+        version: 8.0.9(expo@54.0.23(@babel/core@7.28.5)(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)
       expo-media-library:
         specifier: ~18.2.0
         version: 18.2.0(expo@54.0.23(@babel/core@7.28.5)(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))
@@ -2271,6 +2271,9 @@ packages:
   core-js-compat@3.46.0:
     resolution: {integrity: sha512-p9hObIIEENxSV8xIu+V68JjSeARg6UVMG5mR+JEUguG3sI6MsiS1njz2jHmyJDvA+8jX/sytkBHup6kxhM9law==}
 
+  core-js-compat@3.47.0:
+    resolution: {integrity: sha512-IGfuznZ/n7Kp9+nypamBhvwdwLsW6KC8IOaURw2doAK5e98AG3acVLdh0woOnEqCfUtS+Vu882JE4k/DAm3ItQ==}
+
   cosmiconfig@5.2.1:
     resolution: {integrity: sha512-H65gsXo1SKjf8zmrJ67eJk8aIRKV5ff2D4uKZIBZShbhGSpEmsQOPW/SKMKYhSTrqR7ufy6RP69rPogdaPh/kA==}
     engines: {node: '>=4'}
@@ -2841,8 +2844,8 @@ packages:
       expo: '*'
       react: '*'
 
-  expo-linking@8.0.8:
-    resolution: {integrity: sha512-MyeMcbFDKhXh4sDD1EHwd0uxFQNAc6VCrwBkNvvvufUsTYFq3glTA9Y8a+x78CPpjNqwNAamu74yIaIz7IEJyg==}
+  expo-linking@8.0.9:
+    resolution: {integrity: sha512-a0UHhlVyfwIbn8b1PSFPoFiIDJeps2iEq109hVH3CHd0CMKuRxFfNio9Axe2BjXhiJCYWR4OV1iIyzY/GjiVkQ==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -6475,7 +6478,7 @@ snapshots:
       babel-plugin-polyfill-corejs2: 0.4.14(@babel/core@7.28.5)
       babel-plugin-polyfill-corejs3: 0.13.0(@babel/core@7.28.5)
       babel-plugin-polyfill-regenerator: 0.6.5(@babel/core@7.28.5)
-      core-js-compat: 3.46.0
+      core-js-compat: 3.47.0
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -8593,6 +8596,10 @@ snapshots:
     dependencies:
       browserslist: 4.28.0
 
+  core-js-compat@3.47.0:
+    dependencies:
+      browserslist: 4.28.0
+
   cosmiconfig@5.2.1:
     dependencies:
       import-fresh: 2.0.0
@@ -9289,7 +9296,7 @@ snapshots:
       expo: 54.0.23(@babel/core@7.28.5)(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)
       react: 18.3.1
 
-  expo-linking@8.0.8(expo@54.0.23(@babel/core@7.28.5)(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1):
+  expo-linking@8.0.9(expo@54.0.23(@babel/core@7.28.5)(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1):
     dependencies:
       expo-constants: 18.0.10(expo@54.0.23(@babel/core@7.28.5)(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1))(react-native@0.77.3(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(@types/react@18.3.26)(react@18.3.1))
       invariant: 2.2.4
