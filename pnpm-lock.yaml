@@ -36,8 +36,8 @@ importers:
         specifier: ^4.42.0
         version: 4.42.0(@tanstack/react-query@4.43.0(react-dom@18.3.1(react@18.3.1))(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       axios:
-        specifier: ^1.13.3
-        version: 1.13.3
+        specifier: ^1.13.5
+        version: 1.13.5
       expo:
         specifier: ^54.0.33
         version: 54.0.33(@babel/core@7.29.0)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)
@@ -2015,8 +2015,8 @@ packages:
     resolution: {integrity: sha512-ilYanEU8vxxBexpJd8cWM4ElSQq4QctCLKih0TSfjIfCQTeyH/6zVrmIJfLPrKTKJRbiG+cfnZbQIjAlJmF1jQ==}
     engines: {node: '>=4'}
 
-  axios@1.13.3:
-    resolution: {integrity: sha512-ERT8kdX7DZjtUm7IitEyV7InTHAF42iJuMArIiDIV5YtPanJkgw4hw5Dyg9fh0mihdWNn1GKaeIWErfe56UQ1g==}
+  axios@1.13.5:
+    resolution: {integrity: sha512-cz4ur7Vb0xS4/KUN0tPWe44eqxrIu31me+fbang3ijiNscE129POzipJJA6zniq2C/Z6sJCjMimjS8Lc/GAs8Q==}
 
   axobject-query@4.1.0:
     resolution: {integrity: sha512-qIj0G9wZbMGNLjLmg1PT6v2mE9AH2zlnADJD/2tC6E00hgmhUOfEB6greHPAfLRSufHqROIUTkw6E+M3lH0PTQ==}
@@ -8338,7 +8338,7 @@ snapshots:
 
   axe-core@4.11.0: {}
 
-  axios@1.13.3:
+  axios@1.13.5:
     dependencies:
       follow-redirects: 1.15.11
       form-data: 4.0.5
