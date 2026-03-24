@@ -57,8 +57,8 @@ importers:
         specifier: ~8.0.11
         version: 8.0.11(expo@55.0.5)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)
       expo-media-library:
-        specifier: ~55.0.9
-        version: 55.0.9(expo@55.0.5)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))
+        specifier: ~55.0.10
+        version: 55.0.10(expo@55.0.5)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))
       expo-splash-screen:
         specifier: ~55.0.10
         version: 55.0.10(expo@55.0.5)(typescript@5.9.3)
@@ -2837,8 +2837,8 @@ packages:
     peerDependencies:
       expo: '*'
 
-  expo-media-library@55.0.9:
-    resolution: {integrity: sha512-E12e4gjQEZNdAa7MHDLOAiOMQmhmOGHFMMU5DpiK6I01hPXyRcaxgAQQLpibIXNP4O5LjGi2psa3NBacjyjxkw==}
+  expo-media-library@55.0.10:
+    resolution: {integrity: sha512-xXmz8Do9BJSt1LrkC6r8l2HAXNdaAr2TdzCuiVo9u47Vuo54twlOgzLpdx4rIzODy/cclqbYb2tae4nCKHJLbw==}
     peerDependencies:
       expo: '*'
       react-native: '*'
@@ -9234,7 +9234,7 @@ snapshots:
       - supports-color
       - typescript
 
-  expo-media-library@55.0.9(expo@55.0.5)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1)):
+  expo-media-library@55.0.10(expo@55.0.5)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1)):
     dependencies:
       expo: 55.0.5(@babel/core@7.29.0)(@expo/dom-webview@55.0.3)(react-dom@18.3.1(react@18.3.1))(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
       react-native: 0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1)
