@@ -60,8 +60,8 @@ importers:
         specifier: ~55.0.10
         version: 55.0.10(expo@55.0.9)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))
       expo-splash-screen:
-        specifier: ~55.0.10
-        version: 55.0.10(expo@55.0.9)(typescript@5.9.3)
+        specifier: ~55.0.13
+        version: 55.0.13(expo@55.0.9)(typescript@5.9.3)
       expo-status-bar:
         specifier: ~55.0.4
         version: 55.0.4(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)
@@ -1068,11 +1068,6 @@ packages:
     peerDependencies:
       expo: '*'
 
-  '@expo/prebuild-config@55.0.8':
-    resolution: {integrity: sha512-VJNJiOmmZgyDnR7JMmc3B8Z0ZepZ17I8Wtw+wAH/2+UCUsFg588XU+bwgYcFGw+is28kwGjY46z43kfufpxOnA==}
-    peerDependencies:
-      expo: '*'
-
   '@expo/require-utils@55.0.2':
     resolution: {integrity: sha512-dV5oCShQ1umKBKagMMT4B/N+SREsQe3lU4Zgmko5AO0rxKV0tynZT6xXs+e2JxuqT4Rz997atg7pki0BnZb4uw==}
     peerDependencies:
@@ -1382,9 +1377,6 @@ packages:
 
   '@react-native/normalize-colors@0.77.3':
     resolution: {integrity: sha512-9gHhvK0EKskgIN4JiwzQdxiKhLCgH2LpCp+v38ZxWQpXTMbTDDE4AJRqYgWp2v9WUFQB/S5+XqBDZDgn/MGq9A==}
-
-  '@react-native/normalize-colors@0.83.2':
-    resolution: {integrity: sha512-gkZAb9LoVVzNuYzzOviH7DiPTXQoZPHuiTH2+O2+VWNtOkiznjgvqpwYAhg58a5zfRq5GXlbBdf5mzRj5+3Y5Q==}
 
   '@react-native/normalize-colors@0.83.4':
     resolution: {integrity: sha512-9ezxaHjxqTkTOLg62SGg7YhFaE+fxa/jlrWP0nwf7eGFHlGOiTAaRR2KUfiN3K05e+EMbEhgcH/c7bgaXeGyJw==}
@@ -2887,8 +2879,8 @@ packages:
     peerDependencies:
       expo: '*'
 
-  expo-splash-screen@55.0.10:
-    resolution: {integrity: sha512-RN5qqrxudxFlRIjLFr/Ifmt+mUCLRc0gs66PekP6flzNS/JYEuoCbwJ+NmUwwJtPA+vyy60DYiky0QmS98ydmQ==}
+  expo-splash-screen@55.0.13:
+    resolution: {integrity: sha512-dEainzjUZbqdmcQjO7tIqoh432jloxOGzHJHErGIMxg1QlahKj0e5D/4CY1Xd6qIOs1rRBlG63mPxx7iGBWbHQ==}
     peerDependencies:
       expo: '*'
 
@@ -6928,23 +6920,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@expo/prebuild-config@55.0.8(expo@55.0.9)(typescript@5.9.3)':
-    dependencies:
-      '@expo/config': 55.0.11(typescript@5.9.3)
-      '@expo/config-plugins': 55.0.7
-      '@expo/config-types': 55.0.5
-      '@expo/image-utils': 0.8.12
-      '@expo/json-file': 10.0.12
-      '@react-native/normalize-colors': 0.83.2
-      debug: 4.4.3
-      expo: 55.0.9(@babel/core@7.29.0)(@expo/dom-webview@55.0.3)(react-dom@18.3.1(react@18.3.1))(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
-      resolve-from: 5.0.0
-      semver: 7.7.4
-      xml2js: 0.6.0
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
-
   '@expo/require-utils@55.0.2(typescript@5.9.3)':
     dependencies:
       '@babel/code-frame': 7.29.0
@@ -7534,8 +7509,6 @@ snapshots:
   '@react-native/normalize-colors@0.74.89': {}
 
   '@react-native/normalize-colors@0.77.3': {}
-
-  '@react-native/normalize-colors@0.83.2': {}
 
   '@react-native/normalize-colors@0.83.4': {}
 
@@ -9359,9 +9332,9 @@ snapshots:
       - expo-modules-autolinking
       - supports-color
 
-  expo-splash-screen@55.0.10(expo@55.0.9)(typescript@5.9.3):
+  expo-splash-screen@55.0.13(expo@55.0.9)(typescript@5.9.3):
     dependencies:
-      '@expo/prebuild-config': 55.0.8(expo@55.0.9)(typescript@5.9.3)
+      '@expo/prebuild-config': 55.0.11(expo@55.0.9)(typescript@5.9.3)
       expo: 55.0.9(@babel/core@7.29.0)(@expo/dom-webview@55.0.3)(react-dom@18.3.1(react@18.3.1))(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
