@@ -45,8 +45,8 @@ importers:
         specifier: ~2.1.1
         version: 2.1.1(expo-modules-autolinking@55.0.12(typescript@5.9.3))(expo@55.0.9)
       expo-asset:
-        specifier: ~55.0.8
-        version: 55.0.8(expo@55.0.9)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
+        specifier: ~55.0.10
+        version: 55.0.10(expo@55.0.9)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
       expo-font:
         specifier: ~55.0.4
         version: 55.0.4(expo@55.0.9)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)
@@ -2795,19 +2795,6 @@ packages:
     peerDependencies:
       expo: '*'
       react: '*'
-      react-native: '*'
-
-  expo-asset@55.0.8:
-    resolution: {integrity: sha512-yEz2svDX67R0yiW2skx6dJmcE0q7sj9ECpGMcxBExMCbctc+nMoZCnjUuhzPl5vhClUsO5HFFXS5vIGmf1bgHQ==}
-    peerDependencies:
-      expo: '*'
-      react: '*'
-      react-native: '*'
-
-  expo-constants@55.0.7:
-    resolution: {integrity: sha512-kdcO4TsQRRqt0USvjaY5vgQMO9H52K3kBZ/ejC7F6rz70mv08GoowrZ1CYOr5O4JpPDRlIpQfZJUucaS/c+KWQ==}
-    peerDependencies:
-      expo: '*'
       react-native: '*'
 
   expo-constants@55.0.9:
@@ -9240,27 +9227,6 @@ snapshots:
       expo: 55.0.9(@babel/core@7.29.0)(@expo/dom-webview@55.0.3)(react-dom@18.3.1(react@18.3.1))(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
       expo-constants: 55.0.9(expo@55.0.9)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(typescript@5.9.3)
       react: 18.3.1
-      react-native: 0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1)
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
-
-  expo-asset@55.0.8(expo@55.0.9)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)(typescript@5.9.3):
-    dependencies:
-      '@expo/image-utils': 0.8.12
-      expo: 55.0.9(@babel/core@7.29.0)(@expo/dom-webview@55.0.3)(react-dom@18.3.1(react@18.3.1))(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
-      expo-constants: 55.0.7(expo@55.0.9)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(typescript@5.9.3)
-      react: 18.3.1
-      react-native: 0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1)
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
-
-  expo-constants@55.0.7(expo@55.0.9)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(typescript@5.9.3):
-    dependencies:
-      '@expo/config': 55.0.11(typescript@5.9.3)
-      '@expo/env': 2.1.1
-      expo: 55.0.9(@babel/core@7.29.0)(@expo/dom-webview@55.0.3)(react-dom@18.3.1(react@18.3.1))(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
       react-native: 0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1)
     transitivePeerDependencies:
       - supports-color
