@@ -63,8 +63,8 @@ importers:
         specifier: ~55.0.13
         version: 55.0.13(expo@55.0.9)(typescript@5.9.3)
       expo-status-bar:
-        specifier: ~55.0.4
-        version: 55.0.4(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)
+        specifier: ~55.0.5
+        version: 55.0.5(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)
       expo-updates:
         specifier: ~55.0.16
         version: 55.0.16(expo@55.0.9)(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
@@ -2869,8 +2869,8 @@ packages:
     peerDependencies:
       expo: '*'
 
-  expo-status-bar@55.0.4:
-    resolution: {integrity: sha512-BPDjUXKqv1F9j2YNGLRZfkBEZXIEEpqj+t81y4c+4fdSN3Pos7goIHXgcl2ozbKQLgKRZQyNZQtbUgh5UjHYUQ==}
+  expo-status-bar@55.0.5:
+    resolution: {integrity: sha512-qb0c3rJO2b7CC0gUVGi1JYp92oLenWdYGyk8l4YQs6U+uaXUTPv6aaFa3KkT2HON10re3AxxPNJci8rsz6kPxg==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -9297,7 +9297,7 @@ snapshots:
       - supports-color
       - typescript
 
-  expo-status-bar@55.0.4(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1):
+  expo-status-bar@55.0.5(react-native@0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1))(react@18.3.1):
     dependencies:
       react: 18.3.1
       react-native: 0.77.3(@babel/core@7.29.0)(@babel/preset-env@7.28.5(@babel/core@7.29.0))(@types/react@18.3.26)(react@18.3.1)
